@@ -84,6 +84,16 @@ model_dt.fit(X_train, Y_train)
 ```
 
 ### Computational Results
+In the first train/test split for the first dataset, the training MSE for the 3 layer Feed Forward Neural Network is ##########, and the test MSE is ############. Notice the gap between the errors. There is a large amount of overfitting in this model to the dataset. To address this, dropout could be used to keep the model from fitting to the training data too much and too fast. 
+In the second train/test split where the training data is better dispersed throughout the whole dataset, the model performed notably better. The training MSE is ########### and the test MSE is ###########. Although there is an improvement that is apparent with the increase in data distribution quality, there is still a large amount of overfitting.
+############################### insert writeup here
 
+For the MNIST data transformed to the first 20 PCA components, the 3 layer Feed Forward Neural Network performed much better and is much more suited for image classification. The accuracy for the model on the MNIST data is #######.
+In comparison, the LSTM performed well but not nearly as well as the first method. The accuracy for the LSTM on the PCA MNIST data is #########. This makes intutive sense because the LSTM is designed to process sequential data with a temporal element, but each image in the MNIST dataset has no relationship with the images next to it, and has no temporal component. However, this accuracy is still pretty good for a model not well suited for the task. 
+The SVM performed the best overall with an accuracy of ##############. Image classification in such a standardized dataset is a rather simple task, so the simple SVM performes really well because it can effectively find the hyperplanes needed to classify the digits from the uniformly formatted images. 
+The Decision tree did not perform very well with only ######## accuracy. Some of the digits are written in weird and inconsistent ways, so its harder to create a rigid decision tree based on characteristics that may be different across all of the images of the same digit. 
 
 ### Summary and Conclusions
+
+
+
