@@ -1,11 +1,10 @@
 # Three-Layer-Neural-Networks
 
-
 ##### Author: 
 Riley Estes
 
 ### Abstract
-
+Exploration and comparison of the effectiveness of a 3 layer feed forward neural network in fitting to a curve and classifying MNIST digits. The neural network model in question is shown to perform poorly and overfit greatly in simple regression tasks in comparison to a linear fit, but will provide an effective and cheap method to classify image data. The performance of the model versus an LSTM, SVM, and Decision Tree is explored and the 3 layer Feed Forward NN comes in a close second place in terms of accuracy behind the SVM, yet takes only 3/4 the time (and thus computational cost) to get there. 
 
 ### Introduction and Overview
 A 3 layer Feed Forward Neural Network is a semi-complex nonlinear machine learning model that can perform well in many data processing situations. In this program, the model is tested on a simple regression problem, as well as a more complex classification problem with the MNIST handwritten digits dataset of well framed standardized images. The accuracy of the model in comparison to alternative models will be shown here, and the computational cost and complexity will also be examined. 
