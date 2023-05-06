@@ -100,6 +100,6 @@ The 3 layer neural network was able to achieve its accuracy in 27.6 seconds as c
 
 ### Summary and Conclusions
 Overall, the 3 layer Fedd Forward Neural Network does not perform well in simple curve-fitting tasks, but does considerably well, expecially for its simplicity, on standardized classification tasks such as with the MNIST digits. For regression, even a simple linear fit has the neural network beat by a large margin because the network suffers heavily from overfitting. It's simply too complex for such a simple task, and will end up "overthinking" it. On the other hand, the simple neural network model performed very well on classifying MNIST digits, achieving a close second place behind the SVM algorithm. Notably, the neural network performed better than the more complex, temporal-thinking LSTM, and the Decision Tree models. The neural network does however compute faster than the SVM, and may be the most efficient classification method tested here. 
-In conclusion, for simple regression tasks, use a linear or low-degree polynomial fit. For classification tasks, it will be better to use a Feed Forward Neural Network, or an SVM if computational efficiency can be sacrificed for a small goin in accuracy.
+In conclusion, for simple regression tasks, use a linear or low-degree polynomial fit. For classification tasks, it will be better to use a Feed Forward Neural Network, or an SVM if computational efficiency can be sacrificed for a small gain in accuracy.
 
 
